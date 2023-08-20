@@ -1,0 +1,19 @@
+.heading{
+    font-family:"Roboto ";
+    /* border:2px solid red; */
+    margin-left:8rem
+}
+
+.btn-delete{
+    margin-left:13rem;
+
+}
+
+@media screen and (max-width:640px) {
+    .heading{
+        margin-left: 1rem;
+    }
+    .btn-delete{
+        margin-left:5rem;
+    }
+}

@@ -1,0 +1,66 @@
+.signup-div {
+    width: 50%;
+}
+
+.header-div {
+    text-align: center;
+}
+
+.outer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    ;
+    background-image: url('../../Images/gb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn {
+    color: black;
+    margin-top: 30px;
+}
+
+input[type="date"] {
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgba(61, 56, 56, 0.392);
+    height: 3.5rem;
+    border-radius: 4px;
+    width: 15rem;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="date"]:hover {
+    border: .5px solid black;
+}
+
+
+.select-btn {
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgba(61, 56, 56, 0.392);
+    height: 3.5rem;
+    border-radius: 4px;
+    width: 15rem;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+.select-btn:hover {
+
+    border: .5px solid black;
+}

@@ -1,0 +1,19 @@
+.about-heading{
+    text-align: center;
+    margin-top:2rem;
+
+}
+.about-section{
+    border:1px solid #bcb0b061;
+    background-color: #bcb0b061;
+    margin: auto;
+}
+.about-left-section{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Outfit';
+    /* border:4px solid red; */
+    word-spacing: .2rem;
+    word-wrap:normal;
+}
+

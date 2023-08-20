@@ -1,0 +1,56 @@
+.outer-footer-section {
+    border: 3px solid green;
+    max-width: 100vw;
+    background-color: #0b1560;
+    ;
+
+}
+
+.foot-section {
+    display: flex;
+    width: 100vw;
+    background-color: #0b1560;
+    ;
+    margin: auto;
+    color: #fff;
+    /* border:.5px solid #0b1560; */
+}
+
+.left-part {
+    flex: 1.5;
+    /* border:2px solid red; */
+    margin: 2rem 3rem;
+}
+
+.right-part {
+    flex: 1.2;
+    /* border:2px solid green; */
+    margin: 2rem;
+}
+
+.logos {
+
+    width: 80%;
+}
+
+.logos img {
+    width: 20%
+}
+
+@media screen and (max-width:640px) {
+    .foot-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0b1560;
+        color: #fff;
+    }
+
+    .left-part p {
+        font-size: 1.1rem;
+        margin: 0
+    }
+
+
+
+}

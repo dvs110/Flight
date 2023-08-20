@@ -1,0 +1,10 @@
+.btn-update{
+    margin-left:13rem;
+
+}
+
+@media screen and (max-width:640px) {
+    .btn-update{
+        margin-left:5rem;
+    }
+}
